@@ -952,6 +952,14 @@ a:hover,a:active{
   }
 }
 
+.lia{
+    color: black;
+}
 
+.lia:visited{
+    color: black;
+}
 
-
+.lia:active{
+    color: black;
+}
