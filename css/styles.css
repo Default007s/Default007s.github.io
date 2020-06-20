@@ -954,6 +954,7 @@ a:hover,a:active{
 
 .lia{
     color: black;
+    text-decoration: none;
 }
 
 .lia:visited{
