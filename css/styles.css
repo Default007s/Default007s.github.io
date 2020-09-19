@@ -5,7 +5,7 @@
 
 html
 {
-  scroll-behavior:smooth;
+  /*scroll-behavior:smooth;*/
 }
 
 *{
@@ -793,59 +793,7 @@ a:hover,a:active{
   display: flex;
   flex-direction: row;
   background-color: white;
-  padding: 60px;
-}
-
-.footer-2 a:visited{
-  color: black;
-}
-
-.footer-2 div{
-  padding-left: 60px;
-}
-
-.footer-2 p{
-  padding-left: 20px;
-}
-
-.footer-2 ol{
-  padding-left: 20px;
-  padding-top: 20px;
-}
-
-.footer-2 ol li a{
-  display: list-item;
-  text-decoration: none;
-  color: #474747;
-  list-style-position: outside;
-  list-style-type: '-   ';
-  padding-top: 10px;
-  transition: .2s;
-}
-
-.footer-2 ol li a:hover{
-  padding-left: 20px;
-  transition: .2s;
-}
-
-.footer-2 ol li a:active{
-  transition: 0.001s;
-  color: white;
-}
-
-.ft-fl{
-  display: flex;
-  flex-direction: row;
-}
-
-@media(max-width: 800px){
-  .footer-2 div{
-	padding-left: 0px;
-  }
-
-  .footer-2{
-	padding: 20px 0;
-  }
+  padding: 20px;
 }
 
 .p-1{
@@ -951,15 +899,17 @@ a:hover,a:active{
   }
 }
 
-.lia{
-    color: black;
-    text-decoration: none;
+#insta{
+  width: 50px;
+  margin-left: 400px;
 }
 
-.lia:visited{
-    color: black;
+#myinsta{
+  margin-top: 10px;
+  margin-left: 50px;
+
 }
 
-.lia:active{
-    color: black;
-}
+
+
+
