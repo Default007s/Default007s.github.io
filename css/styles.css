@@ -36,11 +36,6 @@ header{
   background-color: #141414;
 }
 
-.nav{
-  position: absolute;
-  z-index: 1;
-}
-
 nav{
   height: 80px;
   width: 100%;
@@ -59,7 +54,7 @@ nav{
 
 .logo:hover{
   color: black;
-  transition: 2s;
+  transition: .4s;
 }
 
 .line-transition::after{
@@ -112,6 +107,10 @@ ul{
   left: -100%;
   text-align: center;
   transition: all .5s;
+}
+
+.nav{
+  position: fixed;
 }
 
 nav ul{
@@ -384,10 +383,12 @@ a:hover,a:active{
   color: white;
 }
 
-
-
 /*1263px*/
 /*860px*/
+
+.bdg{
+  color: white;
+}
 
 .bg{
   height: 100%;
@@ -901,15 +902,129 @@ a:hover,a:active{
 
 #insta{
   width: 50px;
-  margin-left: 400px;
+  margin-left: 300px;
 }
 
 #myinsta{
   margin-top: 10px;
   margin-left: 50px;
+}
 
+#myps{
+  padding-top: 100px;
+}
+
+.portop{
+  height: 100vh;
+  word-spacing: 15px;
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+  padding-top: 150px !important;
+  border-top: 1px solid white;
+}
+
+#para-ps{
+  margin: 50px 50px 50px 50px;
+}
+
+.projects{
+  margin-top: 100px;
+}
+
+.p1-img{
+  width: 650px;
+}
+
+.p2-img{
+  width: 250px;
+}
+
+.p{
+  margin: 50px 150px;
+  display: flex;
+  margin-top: 0;
+  flex-direction: row;
+  color: black;
+  border-radius: 50px
+}
+
+/*.p2{
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  width: 250px;
+  flex-direction: column;
+}*/
+/*
+.p3{
+  position: absolute;
+}
+*/
+
+.pp1 h1{
+  /*text-decoration: underline;*/
+  border-bottom: 1px solid white;
+  text-align: center;
+  margin: 60px;
+}
+
+.pp1{
+  margin-top: 200px;
+}
+
+.p-para{
+  font-size: 1.5rem;
+  padding: 50px;
+  margin: 0;
+  background: white;
 }
 
 
 
+@media (max-width: 1200px) {
+  .p{
+    flex-direction: column;
+  }
 
+  .p1-img{
+    max-width: 100%;
+    height: auto;
+  }
+
+  #insta{
+    margin-left: 200px;
+  }
+}
+
+@media (max-width: 700px) {
+  .p-para{
+    font-size: 1.2rem;
+    padding: 20px;
+  }
+
+  #insta{
+    margin-left: 100px;
+  }
+
+  #myps{
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .p{
+    margin: 50px 50px;
+  }
+
+  #insta{
+    margin-left: 0px;
+  }
+
+  #myinsta{
+    margin-left: 10px;
+  }
+
+  #myps{
+    padding-top: 0;
+  }
+}
