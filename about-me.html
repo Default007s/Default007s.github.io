@@ -1,50 +1,74 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>AJ</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css"/>
-</head>
-<body>
-    <nav>
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn color-black ">
-            <i class="color-black fas fa-bars"></i>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/simplebar@latest/dist/simplebar.css"
+    />
+  </head>
+  <body>
+    <div id="butter">
+      <nav>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn color-black">
+          <i class="color-black fas fa-bars"></i>
         </label>
         <header class="bg-white">
-            <div class="container">
-                <ul>
-                    <li><a class="color-black line-transition" href="index.html">Home</a></li>
-                    <li><a class="color-black line-transition" href="portfolio.html">Portfolio</a></li>
-                    <li><a class="color-black line-transition" href="about-me.html">About Me</a></li>
-                </ul>
-                <label class="black logo">AJ</label>
-            </div>
+          <div class="container">
+            <ul>
+              <li>
+                <a class="color-black line-transition" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a class="color-black line-transition" href="portfolio.html"
+                  >Portfolio</a
+                >
+              </li>
+              <li>
+                <a class="color-black line-transition" href="about-me.html"
+                  >About Me</a
+                >
+              </li>
+            </ul>
+            <label class="black logo">AJ</label>
+          </div>
         </header>
-    </nav>
-    <div class="about-top">
+      </nav>
+      <div class="about-top">
         <h1 id="developer">developer</h1>
         <h1 id="top-work">I do exciting work through my skills</h1>
-    </div>
-    <p id="explanation">Hey! I am a full stack web developer. I can design and develope extremely good websites for you as I have done in the past. Because I have a good knowledge of
-    flask, html and css you can have a good website
-    working with me. And if you want a classy ,modern or any kind of
-    look for your website then you are at the right place. The best thing is if
-    you don't like my work then you can have your money back. Because I know
-    satisfaction is a rating but loyality is a brand. You can contact me here:
-    </p>
-    <div class="icons">
-        <a href=""><img id="twitter-icon" src="just_pics/twitter.png"></a>
-        <a href=""><img id="facebook-icon" src="just_pics/facebook.png"></a>
-        <a href=""><img id="gamil-icon" src="just_pics/gmail.png"></a>
-    </div>
-    <footer>
+      </div>
+      <p id="explanation">
+        Hey! I am a full stack web developer. I can design and develope
+        extremely good websites for you as I have done in the past. Because I
+        have a good knowledge of flask, html and css you can have a good website
+        working with me. And if you want a classy ,modern or any kind of look
+        for your website then you are at the right place. The best thing is if
+        you don't like my work then you can have your money back. Because I know
+        satisfaction is a rating but loyality is a brand. You can contact me
+        here:
+      </p>
+      <div class="icons">
+        <a href=""><img id="twitter-icon" src="just_pics/twitter.png" /></a>
+        <a href=""><img id="facebook-icon" src="just_pics/facebook.png" /></a>
+        <a href=""><img id="gamil-icon" src="just_pics/gmail.png" /></a>
+      </div>
+      <footer>
         <div class="footer-1">
-            <h1 class="work-together">Let's work together</h1>
+          <h1 class="work-together">Let's work together</h1>
         </div>
-    </footer>
+      </footer>
+    </div>
+    <script src="./butter.js"></script>
+    <script>
+      butter.init({ cancelOnTouch: true });
+    </script>
     <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
-</body>
+  </body>
 </html>
